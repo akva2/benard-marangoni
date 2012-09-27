@@ -1,0 +1,9 @@
+This is a simulator for Bènard-Marangoni convection based on
+spectral elements, pressure correction and BDF2 time stepping.
+It utilizes as very fast tensor-product solver for partially-deformed
+geometries, making it very useful for performing massive amounts of
+simulations to e.g. study the influence of initial conditions.
+
+It uses a hybrid MPI/OpenMP parallelization approach and has been 
+optimized to minimize the strain on the interconnect. This makes it suitable
+for use on all classes of hardware; be it desktops, clusters or supercomputers.
